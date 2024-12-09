@@ -41,7 +41,6 @@ function App() {
    <Contact/>
    <Footer/>
    <BackToTop/>
-   <Loader/>
    </>
   );
 }
