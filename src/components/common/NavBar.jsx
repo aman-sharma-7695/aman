@@ -24,7 +24,7 @@ const NavBar = () => {
 
           <div className="flex items-center">
             <img src={logo} alt="Logo" className="w-12 md:w-full max-w-[70px]" />
-            <h1 className="text-white tracking-tight text-custom-xl md:text-xl font-semibold ">AMAN <span className='text-fed-orange pl-2'>SHARMA</span></h1>
+            <h1 className="text-white tracking-tight text-custom-xl md:text-xl font-montserrat font-semibold ">AMAN <span className='text-fed-orange font-normal pl-2'>SHARMA</span></h1>
           </div>
 
 

@@ -40,6 +40,10 @@ module.exports = {
         
 
       },
+      fontFamily:{
+        montserrat:"Montserrat, sans-serif",
+
+      },
       lineHeight: {
         130: "130%",
         145: "145%",

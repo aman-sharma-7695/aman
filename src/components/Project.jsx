@@ -15,11 +15,11 @@ const Project = () => {
           </p>
 
           <div className=' flex flex-wrap md:flex-row justify-center md:justify-start gap-5   md:pl-[280px] py-[60px] cursor-pointer'>
-            <button onClick={() => setTabs("all")} className={` text-black  hover:text-white hover:bg-fed-orange duration-500  px-5 py-10  rounded-xl ${tabs === 'all' ? "bg-fed-orange text-white" : "bg-white  "}`}>All</button>
-            <button onClick={() => setTabs("ui")} className={`text-black  hover:text-white hover:bg-fed-orange duration-500  px-5 py-10 rounded-xl ${tabs === 'ui' ? "bg-fed-orange text-white" : "bg-white"}`}>UI/UX</button>
-            <button onClick={() => setTabs("app")} className={`text-black  hover:text-white hover:bg-fed-orange duration-500  px-5 py-10 rounded-xl ${tabs === 'app' ? "bg-fed-orange text-white" : "bg-white"}`}>App Design</button>
-            <button onClick={() => setTabs("web")} className={`text-black  hover:text-white hover:bg-fed-orange duration-500  px-5 py-10 rounded-xl ${tabs === 'web' ? "bg-fed-orange text-white" : "bg-white"}`}>Web Design</button>
-            <button onClick={() => setTabs("graphic")} className={`text-black  hover:text-white hover:bg-fed-orange duration-500  px-5 py-10 rounded-xl ${tabs === 'graphic' ? "bg-fed-orange text-white" : "bg-white"}`}>Graphic Design</button>
+            <button onClick={() => setTabs("all")} className={` text-black  hover:text-white hover:bg-fed-orange duration-700  px-5 py-10  rounded-xl ${tabs === 'all' ? "bg-fed-orange text-white" : "bg-white  "}`}>All</button>
+            <button onClick={() => setTabs("ui")} className={`text-black  hover:text-white hover:bg-fed-orange duration-700  px-5 py-10 rounded-xl ${tabs === 'ui' ? "bg-fed-orange text-white" : "bg-white"}`}>UI/UX</button>
+            <button onClick={() => setTabs("app")} className={`text-black  hover:text-white hover:bg-fed-orange duration-700  px-5 py-10 rounded-xl ${tabs === 'app' ? "bg-fed-orange text-white" : "bg-white"}`}>App Design</button>
+            <button onClick={() => setTabs("web")} className={`text-black  hover:text-white hover:bg-fed-orange duration-700  px-5 py-10 rounded-xl ${tabs === 'web' ? "bg-fed-orange text-white" : "bg-white"}`}>Web Design</button>
+            <button onClick={() => setTabs("graphic")} className={`text-black  hover:text-white hover:bg-fed-orange duration-700  px-5 py-10 rounded-xl ${tabs === 'graphic' ? "bg-fed-orange text-white" : "bg-white"}`}>Graphic Design</button>
           </div>
         </div>
 
