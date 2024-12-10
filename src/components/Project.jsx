@@ -31,7 +31,7 @@ const Project = () => {
                 <img src={careimg} alt="" className='w-full' />
               </div>
               <h1 className='text-white hover:text-fed-orange text-custom-1xl py-3  md:pt-5'>Web Design</h1>
-              <p className='text-white hover:text-fed-orange text-lg font-bold leading-[150%] pb-10  '>AirCalling Landing Page Design </p>
+              <p className='text-white hover:text-fed-orange text-lg font-bold leading-[150%] pb-39  '>AirCalling Landing Page Design </p>
             </div>
             }
             {tabs === "all" &&
@@ -40,7 +40,7 @@ const Project = () => {
                   <img src={businessimg} alt="" className='' />
                 </div>
                 <h2 className=' text-white hover:text-fed-orange text-custom-1xl py-3 md:pt-5'>Web Design</h2>
-                <p className='text-white hover:text-fed-orange text-lg  leading-[150%]  font-bold pb-10 '>Business Landing Page Design </p>
+                <p className='text-white hover:text-fed-orange text-lg  leading-[150%]  font-bold pb-39 '>Business Landing Page Design </p>
               </div>
             }
             {tabs === "all" &&
@@ -48,8 +48,8 @@ const Project = () => {
                 <div className='bg-skin-color px-5  rounded-md md:rounded-xl md:pl-39px md:pr-7'>
                   <img src={styleimg} alt="" className='' />
                 </div>
-                <h2 className=' text-white hover:text-fed-orange text-custom-1xl py-3 md:pt-5'>Web Design</h2>
-                <p className='text-white hover:text-fed-orange text-lg font-bold pb-10 '>Ecom Web Page Design </p>
+                <h2 className=' text-white hover:text-fed-orange text-custom-1xl py-5 md:pt-5'>Web Design</h2>
+                <p className='text-white hover:text-fed-orange text-lg font-bold pb-39 '>Ecom Web Page Design </p>
               </div>
             }
 
@@ -60,7 +60,7 @@ const Project = () => {
                   <img src={businessimg} alt="" className='' />
                 </div>
                 <h2 className=' text-white hover:text-fed-orange text-custom-1xl py-3 md:pt-5'>Web Design</h2>
-                <p className='text-white hover:text-fed-orange text-lg  leading-[150%]  font-bold pb-10 '>Business Landing Page Design </p>
+                <p className='text-white hover:text-fed-orange text-lg  leading-[150%]  font-bold pb-39 '>Business Landing Page Design </p>
               </div>
             }
 
@@ -70,7 +70,7 @@ const Project = () => {
                   <img src={styleimg} alt="" className='' />
                 </div>
                 <h2 className=' text-white hover:text-fed-orange text-custom-1xl py-3 md:pt-5'>Web Design</h2>
-                <p className='text-white hover:text-fed-orange text-lg font-bold pb-10 '>Ecom Web Page Design </p>
+                <p className='text-white hover:text-fed-orange text-lg font-bold pb-39 '>Ecom Web Page Design </p>
               </div>
             }
             {tabs === "app" &&
@@ -79,7 +79,7 @@ const Project = () => {
                   <img src={styleimg} alt="" className='' />
                 </div>
                 <h2 className=' text-white hover:text-fed-orange text-custom-1xl py-3 md:pt-5'>Web Design</h2>
-                <p className='text-white hover:text-fed-orange text-lg font-bold pb-10 '>Ecom Web Page Design </p>
+                <p className='text-white hover:text-fed-orange text-lg font-bold pb-39 '>Ecom Web Page Design </p>
               </div>
             }
             {tabs === "app" &&
@@ -88,7 +88,7 @@ const Project = () => {
                   <img src={styleimg} alt="" className='' />
                 </div>
                 <h2 className=' text-white hover:text-fed-orange text-custom-1xl py-3 md:pt-5'>Web Design</h2>
-                <p className='text-white hover:text-fed-orange text-lg font-bold pb-10 '>Ecom Web Page Design </p>
+                <p className='text-white hover:text-fed-orange text-lg font-bold pb-39 '>Ecom Web Page Design </p>
               </div>
             }
             {tabs === "app" &&
@@ -97,7 +97,7 @@ const Project = () => {
                   <img src={styleimg} alt="" className='' />
                 </div>
                 <h2 className=' text-white hover:text-fed-orange text-custom-1xl py-3 md:pt-5'>Web Design</h2>
-                <p className='text-white hover:text-fed-orange text-lg font-bold pb-10 '>Ecom Web Page Design </p>
+                <p className='text-white hover:text-fed-orange text-lg font-bold pb-39 '>Ecom Web Page Design </p>
               </div>
             }
             {tabs === "web" && <div className='bg-dark-black'>
@@ -105,7 +105,7 @@ const Project = () => {
                 <img src={careimg} alt="" className='w-full' />
               </div>
               <h1 className='text-white hover:text-fed-orange text-custom-1xl py-3  md:pt-5'>Web Design</h1>
-              <p className='text-white hover:text-fed-orange text-lg font-bold leading-[150%] pb-10  '>AirCalling Landing Page Design </p>
+              <p className='text-white hover:text-fed-orange text-lg font-bold leading-[150%] pb-39  '>AirCalling Landing Page Design </p>
             </div>
             }
             {tabs === "web" &&
@@ -114,7 +114,7 @@ const Project = () => {
                   <img src={styleimg} alt="" className='' />
                 </div>
                 <h2 className=' text-white hover:text-fed-orange text-custom-1xl py-3 md:pt-5'>Web Design</h2>
-                <p className='text-white hover:text-fed-orange text-lg font-bold pb-10 '>Ecom Web Page Design </p>
+                <p className='text-white hover:text-fed-orange text-lg font-bold pb-39 '>Ecom Web Page Design </p>
               </div>
             }
             {tabs === "graphic" &&
@@ -123,7 +123,7 @@ const Project = () => {
                   <img src={businessimg} alt="" className='' />
                 </div>
                 <h2 className=' text-white hover:text-fed-orange text-custom-1xl py-3 md:pt-5'>Web Design</h2>
-                <p className='text-white hover:text-fed-orange text-lg  leading-[150%]  font-bold pb-10 '>Business Landing Page Design </p>
+                <p className='text-white hover:text-fed-orange text-lg  leading-[150%]  font-bold pb-39 '>Business Landing Page Design </p>
               </div>
             }
             {tabs === "graphic" &&
@@ -132,7 +132,7 @@ const Project = () => {
                   <img src={businessimg} alt="" className='' />
                 </div>
                 <h2 className=' text-white hover:text-fed-orange text-custom-1xl py-3 md:pt-5'>Web Design</h2>
-                <p className='text-white hover:text-fed-orange text-lg  leading-[150%]  font-bold pb-10 '>Business Landing Page Design </p>
+                <p className='text-white hover:text-fed-orange text-lg  leading-[150%]  font-bold pb-39 '>Business Landing Page Design </p>
               </div>
             }
             {tabs === "graphic" &&
@@ -141,7 +141,7 @@ const Project = () => {
                   <img src={businessimg} alt="" className='' />
                 </div>
                 <h2 className=' text-white hover:text-fed-orange text-custom-1xl py-3 md:pt-5'>Web Design</h2>
-                <p className='text-white hover:text-fed-orange text-lg  leading-[150%]  font-bold pb-10 '>Business Landing Page Design </p>
+                <p className='text-white hover:text-fed-orange text-lg  leading-[150%]  font-bold pb-39 '>Business Landing Page Design </p>
               </div>
             }
 
