@@ -41,7 +41,7 @@ const Hero = () => {
           <div className='w-10 h-10 rounded-full bg-dark-orange hover:bg-fed-orange duration-700  flex justify-center items-center'>
               <a href="https://www.facebook.com/profile.php?id=100015111160029&mibextid=ZbWKwL">
                 <FacebookIcon />
-              </a>
+              </a>  
             </div>
 
             <div className='w-10 h-10 rounded-full bg-dark-orange hover:bg-fed-orange duration-700 flex justify-center items-center'>
