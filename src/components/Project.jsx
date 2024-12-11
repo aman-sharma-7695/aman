@@ -48,7 +48,7 @@ const Project = () => {
                 <div className='bg-skin-color px-5  rounded-md md:rounded-xl md:pl-39px md:pr-7'>
                   <img src={styleimg} alt="" className='' />
                 </div>
-                <h2 className=' text-white hover:text-fed-orange text-custom-1xl py-5 md:pt-5'>Web Design</h2>
+                <h2 className=' text-white hover:text-fed-orange text-custom-1xl py-3 md:pt-5'>Web Design</h2>
                 <p className='text-white hover:text-fed-orange text-lg font-bold pb-39 '>Ecom Web Page Design </p>
               </div>
             }
