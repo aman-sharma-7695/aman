@@ -22,8 +22,8 @@ const Hero = () => {
     });
   }, [])
   return (
-    <div className='bg-dark-black' id='home'>
-      <div className='max-w-[1280px] px-5 pt-5 md:px-20  md:pt-20 grid grid-cols-1 md:grid-cols-2 gap-8'>
+    <div className='bg-dark-black overflow-x-hidden' id='home'>
+      <div className='max-w-[1240px] mx-auto px-5 pt-5 md:px-20  md:pt-20 grid grid-cols-1 md:grid-cols-2 gap-8'>
         <div className='flex flex-col justify-center  items-start  md:text-left' data-aos="fade-up-right" >
           <h2 className='text-white text-xl md:text-2xl font-semibold'>Hi I am </h2>
           <h3 className='text-fed-orange text-xl md:text-custom-xxl leading-145 font-semibold'>AMAN SHARMA</h3>
