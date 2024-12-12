@@ -19,16 +19,16 @@ const NavBar = () => {
 
   return (
     <div className="bg-dark-black sticky top-0 z-10">
-      <div className="max-w-[1280px] mx-auto px-2 md:px-14">
+      <div className="max-w-[1240px] mx-auto px-2">
         <div className="flex justify-between items-center  py-3">
 
-          <div className="flex items-center">
+          <div className="flex items-center max-w-max">
             <img src={logo} alt="Logo" className="w-12 md:w-full max-w-[70px]" />
-            <h1 className="text-white tracking-tight text-custom-xl md:text-xl font-montserrat font-semibold ">AMAN <span className='text-fed-orange font-normal pl-2'>SHARMA</span></h1>
+            <p className="text-white max-w-max md:hidden lg:flex tracking-tight text-lg lg:text-xl font-montserrat font-semibold ">AMAN <span className='text-fed-orange font-normal pl-2'>SHARMA</span></p>
           </div>
 
 
-          <div className="hidden md:flex items-center space-x-6 text-white text-sm font-medium">
+          <div className="hidden md:flex items-center lg:space-x-6 space-x-4 text-white text-sm font-medium">
             <a href="#home" className="hover:text-orange-400">Home</a>
             <a href="#aboutme" className="hover:text-orange-400">About Me</a>
             <a href="#services" className="hover:text-orange-400">Services</a>

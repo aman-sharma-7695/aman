@@ -5,7 +5,7 @@ import { FacebookIcon, InstagramIcon, LinkdenIcon, TwiiterIcon } from './Icon'
 const Footer = () => {
   return (
     <div className='bg-dark-black'>
-      <div className='max-w-[1240px] mx-auto px-5  '>
+      <div className='max-w-[1240px] mx-auto px-4  '>
         <div className="flex items-center justify-center py-14">
           <img src={logo} alt="Logo" className="w-12 md:w-full max-w-[67px]" />
           <h1 className="text-white tracking-tight text-custom-xl md:text-xl font-semibold font-montserrat ">AMAN <span className='text-[#FD6F00] font-normal pl-2'>SHARMA</span></h1>

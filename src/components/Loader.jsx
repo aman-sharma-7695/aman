@@ -1,6 +1,6 @@
 import React from 'react'
 
-import loadergif1 from '../assests/images/png/loader1.gif'
+import loadergif1 from '../assests/images/png/loadingimg.gif'
 
 
 const Loader = () => {

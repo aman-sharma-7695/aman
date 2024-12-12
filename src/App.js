@@ -13,25 +13,25 @@ import Project from './components/Project';
 import Service from './components/Service';
 
 function App() {
-  const [loading, setLoading] = useState(true);
+  // const [loading, setLoading] = useState(true);
 
-  useEffect(() => {
-    // Simulate loading delay (e.g., for fetching data)
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 3000); // Replace 3000 with actual loading duration
+  // useEffect(() => {
+  //   // Simulate loading delay (e.g., for fetching data)
+  //   const timer = setTimeout(() => {
+  //     setLoading(false);
+  //   }, 3000); // Replace 3000 with actual loading duration
 
-    return () => clearTimeout(timer); // Cleanup
-  }, []);
+  //   return () => clearTimeout(timer); // Cleanup
+  // }, []);
 
 
-  if (loading) {
-    return <Loader/>;
-  } 
+  // if (loading) {
+  //   return <Loader/>;
+  // } 
 
   
   return (
-   <>
+   <div className='overflow-clip'>
    <NavBar/>
    <Hero/>
    <AboutMe/>
@@ -41,7 +41,7 @@ function App() {
    <Contact/>
    <Footer/>
    <BackToTop/>
-   </>
+   </div>
   );
 }
 

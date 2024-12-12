@@ -13,18 +13,28 @@ const Service = () => {
     autoplay: true,
     autoplaySpeed: 1500,
     slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToScroll: 3,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 1,
         },
       },
       {
         breakpoint: 768,
         settings: {
+          dots:true,
+          centerMode: false,
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 425,
+        settings: {
+          dots:false,
           centerMode: false,
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -37,18 +47,18 @@ const Service = () => {
 
   return (
     <div className='bg-dark-black' id='services'>
-      <div className="max-w-[1240px] mx-auto pt-11 md:pt-20">
-        <div className="text-white  md:text-center px-5 mb-8" data-aos="fade-up"
+      <div className="max-w-[1240px] mx-auto  px-4 pt-11 md:pt-20">
+        <div className="text-white  md:text-center mb-8" data-aos="fade-up"
      data-aos-anchor-placement="bottom-center">
-          <h2 className="text-10xl md:text-11xl font-semibold mb-4">Services</h2>
-          <p className="max-w-[732px] mx-auto text-base ">
+          <h2 className="text-10xl md:text-[60px] lg:text-11xl font-semibold mb-4">Services</h2>
+          <p className="max-w-[600px] lg:max-w-[732px] mx-auto text-sm lg:text-base ">
             Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in.
             Aliquet donec morbi convallis pretium.
           </p>
         </div>
 
 
-        <div className='max-w-[1240px] mx-auto  px-5 md:px-100 pt-14 md:pb-100 '>
+        <div className='max-w-[1240px] mx-auto  px-4  pt-14 md:pb-100 '>
           <Slider {...sliderSettings}>
             {SERVICE_CARD_DATA_LIST.map((obj, i) => {
               return (

@@ -32,7 +32,7 @@ const BackToTop = () => {
         <button
           onClick={scrollToTop}
           
-          className="fixed bottom-5 right-5 bg-dark-orange text-white p-3 rounded-full shadow-lg hover:bg-fed-orange duration-700 focus:outline-none focus:ring focus:ring-dark-orange"
+          className="fixed  bottom-5 right-5 bg-fed-orange text-white p-2 md:p-3 rounded-full shadow-lg hover:bg-dark-orange duration-700 focus:outline-none focus:ring focus:ring-dark-orange"
           
         >
           <BackToTopIcon/>
