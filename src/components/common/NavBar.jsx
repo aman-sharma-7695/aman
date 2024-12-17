@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState , useEffect} from 'react';
 import logo from '../../assests/images/png/asimg.png';
 import { CrossIcon, MenuIcon } from './Icon';
 import resume from '../../assests/pdf/resume.pdf'
@@ -16,6 +16,20 @@ const NavBar = () => {
   const handleCloseMenu = () => {
     setIsMenuOpen(false);
   };
+  
+
+  useEffect(() => {
+    if (isMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = 'auto';
+    }
+    
+    return () => {
+      document.body.style.overflow = 'auto';
+    };
+  }, [isMenuOpen]);
+
 
   return (
     <div className="bg-dark-black sticky top-0 z-10">
