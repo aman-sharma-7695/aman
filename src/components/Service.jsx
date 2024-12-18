@@ -25,7 +25,7 @@ const Service = () => {
       {
         breakpoint: 768,
         settings: {
-          dots:true,
+          dots: true,
           centerMode: false,
           slidesToShow: 2,
           slidesToScroll: 2,
@@ -34,7 +34,7 @@ const Service = () => {
       {
         breakpoint: 425,
         settings: {
-          dots:false,
+          dots: false,
           centerMode: false,
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -49,7 +49,7 @@ const Service = () => {
     <div className='bg-dark-black' id='services'>
       <div className="max-w-[1240px] mx-auto  px-4 pt-11 md:pt-20">
         <div className="text-white  md:text-center mb-8" data-aos="fade-up"
-     data-aos-anchor-placement="bottom-center">
+          data-aos-anchor-placement="bottom-center">
           <h2 className="text-10xl md:text-[60px] lg:text-11xl font-semibold mb-4">Services</h2>
           <p className="max-w-[600px] lg:max-w-[732px] mx-auto text-sm lg:text-base ">
             Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in.
@@ -64,12 +64,9 @@ const Service = () => {
               return (
                 <div key={i} className='px-3  '>
                   <div className='bg-white py-5 px-5 md:pt-57 md:pb-10 md:px-5  rounded-custom-2xl'>
-
                     <div>
                       <img src={obj.image} alt="" className='w-full max-w-[50px] md:max-w-[72px]' />
                     </div>
-
-
                     <div className=''>
                       <h3 className='text-black text-lg md:text-3xl font-semibold py-4  md:pt-26 md:pb-15 '> {obj.title}</h3>
                       <p className='text-black text-sm font-normal'>{obj.description}</p>

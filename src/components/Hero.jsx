@@ -38,25 +38,25 @@ const Hero = () => {
         <div className="flex flex-col justify-center items-center  ">
           <img src={Heroimg} alt="Hero" className=" py-5 md:py-0 w-full max-w-[350px] " data-aos="zoom-in-up" />
           <div className='flex justify-center items-center   cursor-pointer md:pt-9 gap-4 md:gap-5 ' data-aos="flip-up">
-          <div className='w-10 h-10 rounded-full bg-dark-orange hover:bg-fed-orange duration-700  flex justify-center items-center'>
+          <div className='w-10 h-10 rounded-full bg-fed-orange hover:bg-blue-600 duration-500  flex justify-center items-center'>
               <a href="https://www.facebook.com/profile.php?id=100015111160029&mibextid=ZbWKwL">
                 <FacebookIcon />
               </a>  
             </div>
 
-            <div className='w-10 h-10 rounded-full bg-dark-orange hover:bg-fed-orange duration-700 flex justify-center items-center'>
+            <div className='w-10 h-10 rounded-full bg-fed-orange hover:bg-black duration-500 flex justify-center items-center'>
               <a href="https://x.com/AmanSharma7695?t=nVbDOYBT3qVtx1ScjH0dpg&s=09">
                 <TwiiterIcon />
               </a>
             </div>
 
-            <div className='w-10 h-10 rounded-full bg-dark-orange hover:bg-fed-orange duration-700 flex justify-center items-center'>
+            <div className='w-10 h-10 rounded-full bg-fed-orange hover:bg-pink-600 duration-500 flex justify-center items-center'>
               <a href="https://www.instagram.com/aman__sharma19?igsh=MTBsZzI1bWJlcHA4OA==">
                 <InstagramIcon className="" />
               </a>
             </div>
 
-            <div className='w-10 h-10 rounded-full bg-dark-orange hover:bg-fed-orange duration-700 flex justify-center items-center'>
+            <div className='w-10 h-10 rounded-full bg-fed-orange hover:bg-sky-600 duration-500 flex justify-center items-center'>
               <a href="https://www.linkedin.com/in/aman-sharma-415714314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
                 <LinkdenIcon />
               </a>
