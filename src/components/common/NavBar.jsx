@@ -49,7 +49,7 @@ const NavBar = () => {
             <a href="#projects" className="hover:text-orange-400">Projects</a>
             <a href="#educations" className="hover:text-orange-400">Educations</a>
             <a href="#contact" className="hover:text-orange-400">Contact</a>
-            <button onClick={handleDownload} className="bg-fed-orange px-4 py-2  rounded hover:bg-orange-700 duration-500">
+            <button onClick={handleDownload} className="bg-fed-orange px-4 py-2  rounded hover:bg-orange-700 transition duration-500">
               Download CV
             </button>
           </div>

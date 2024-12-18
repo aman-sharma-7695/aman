@@ -87,4 +87,6 @@ html,body{
   animation: slow-bounce 2s infinite;
 }
 
-  
+.scrool-hidden::-webkit-scrollbar{
+  display: none;
+}

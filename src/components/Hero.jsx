@@ -32,7 +32,7 @@ const Hero = () => {
           <p className='text-white text-sm  lg:text-base max-w-[698px]  py-22 font-normal'>I'm a passionate Front-End Developer with a mission to create delightful and intuitive digital experiences. With a strong foundation in design principles and a keen eye for detail.</p>
           <div className='flex flex-col md:flex-row gap-8'>
             <button className='bg-fed-orange hover:bg-orange-700 duration-700 text-white text-lg font-normal px-5 lg:px-12 xl:px-12  py-2.5 md:py-3 lg:py-[17px] rounded-custom-xl' data-aos="fade-up-left">Hire Me</button>
-            <button onClick={handleDownload} className='bg-fed-orange hover:bg-orange-700 duration-700 text-white  text-lg font-normal px-5 lg:px-12 xl:px-12  py-2.5 md:py-3  lg:py-[17px] rounded-custom-xl' data-aos="fade-up-left">Download Cv</button>
+            <button onClick={handleDownload} className='bg-fed-orange hover:bg-orange-700 transition duration-700 text-white  text-lg font-normal px-5 lg:px-12 xl:px-12  py-2.5 md:py-3  lg:py-[17px] rounded-custom-xl' data-aos="fade-up-left">Download Cv</button>
           </div>
        </div>
         <div className="flex flex-col justify-center items-center  ">
