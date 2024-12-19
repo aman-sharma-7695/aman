@@ -13,7 +13,7 @@ const AboutMe = () => {
   }, [])
   return (
     <div className='bg-dark-black' id='aboutme'>
-      <div className='max-w-[1240px] mx-auto px-4 pt-14 md:pt-20 grid grid-cols-1 md:grid-cols-2 '>
+      <div className='max-w-[1240px] mx-auto px-4 pt-5 md:pt-20 grid grid-cols-1 md:grid-cols-2 '>
         <div className='order-1 my-8'>
           <img src={Aboutimg} alt="" className='w-full max-w-[500px]' data-aos="zoom-in-up" />
 

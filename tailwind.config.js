@@ -12,6 +12,7 @@ module.exports = {
         'skin-color' : "#FFEBDB"
 
       },
+      
       fontSize: {
         'custom-1xl': "19px",
         'custom-xl': "21px",

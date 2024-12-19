@@ -1,0 +1,6 @@
+.abc{
+    background-color: blue;
+  filter: blur(200px);
+  height: 100px;
+  width: 100px;
+}

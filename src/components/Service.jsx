@@ -10,7 +10,7 @@ const Service = () => {
     dots: true,
     arrows: false,
     centerMode: false,
-    autoplay: true,
+    autoplay:false,
     autoplaySpeed: 1500,
     slidesToShow: 3,
     slidesToScroll: 3,
@@ -58,11 +58,11 @@ const Service = () => {
         </div>
 
 
-        <div className='max-w-[1240px] mx-auto  px-4  pt-14 md:pb-100 '>
+        <div className=' pt-14 md:pb-100 '>
           <Slider {...sliderSettings}>
             {SERVICE_CARD_DATA_LIST.map((obj, i) => {
               return (
-                <div key={i} className='px-3  '>
+                <div key={i} className=' md:px-4 '>
                   <div className='bg-white py-5 px-5 md:pt-57 md:pb-10 md:px-5  rounded-custom-2xl'>
                     <div>
                       <img src={obj.image} alt="" className='w-full max-w-[50px] md:max-w-[72px]' />
