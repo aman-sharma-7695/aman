@@ -10,7 +10,7 @@ const Service = () => {
     dots: true,
     arrows: false,
     centerMode: false,
-    autoplay:false,
+    autoplay: true,
     autoplaySpeed: 1500,
     slidesToShow: 3,
     slidesToScroll: 3,
