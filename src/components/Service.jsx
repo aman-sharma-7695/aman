@@ -47,10 +47,10 @@ const Service = () => {
 
   return (
     <div className='bg-dark-black' id='services'>
-      <div className="max-w-[1240px] mx-auto  px-4 pt-11 md:pt-20">
+      <div className="max-w-8xl mx-auto  px-4 pt-11 md:pt-20">
         <div className="text-white  md:text-center mb-8" data-aos="fade-up"
           data-aos-anchor-placement="bottom-center">
-          <h2 className="text-10xl md:text-[60px] lg:text-11xl font-semibold mb-4">Services</h2>
+          <h2 className="text-10xl md:text-6xl lg:text-11xl font-semibold mb-4">Services</h2>
           <p className="max-w-[600px] lg:max-w-[732px] mx-auto text-sm lg:text-base ">
             Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in.
             Aliquet donec morbi convallis pretium.

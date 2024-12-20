@@ -11,28 +11,14 @@ import Hero from './components/Hero';
 import Loader from './components/Loader';
 import Project from './components/Project';
 import Service from './components/Service';
+import { Outlet, Route, Routes } from 'react-router-dom';
+import Serverices from './components/pages/Serverices';
+import ContactPage from './components/pages/ContactPage';
 
 function App() {
-  // const [loading, setLoading] = useState(true);
-
-  // useEffect(() => {
-  //   // Simulate loading delay (e.g., for fetching data)
-  //   const timer = setTimeout(() => {
-  //     setLoading(false);
-  //   }, 3000); // Replace 3000 with actual loading duration
-
-  //   return () => clearTimeout(timer); // Cleanup
-  // }, []);
-
-
-  // if (loading) {
-  //   return <Loader/>;
-  // } 
-
-  
   return (
-   <div className='overflow-clip'>
-   <NavBar/>
+    <div className='overflow-clip'>
+      {/* <NavBar/>
    <Hero/>
    <AboutMe/>
    <Service/>
@@ -40,8 +26,19 @@ function App() {
    <Education/>
    <Contact/>
    <Footer/>
-   <BackToTop/>
-   </div>
+   <BackToTop/> */}
+      <NavBar />
+      {/* <Routes>
+        <Route path='/' element={<Hero />} />
+        <Route path='/about' element={<AboutMe />} />
+        <Route path='/project' element={<Project />} />
+        <Route path='/services' element={<Serverices />} />
+        <Route path='/contact' element={<ContactPage />} />
+      </Routes> */}
+      <Outlet />
+      <Footer />
+      <BackToTop/>
+    </div>
   );
 }
 
