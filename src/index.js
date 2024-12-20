@@ -21,7 +21,7 @@ const abc = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: "/home",
+        path: "/",
         element: <HomePage />,
       },
       {

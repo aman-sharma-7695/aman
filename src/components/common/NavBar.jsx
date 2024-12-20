@@ -42,7 +42,7 @@ const NavBar = () => {
           </div>
 
           <div className="hidden md:flex items-center lg:space-x-6 space-x-4 text-white text-sm font-medium">
-            <Link to="/home" className="hover:text-orange-400">Home</Link>
+            <Link to="/" className="hover:text-orange-400">Home</Link>
             <Link to="/about" className="hover:text-orange-400">About Me</Link>
             <Link to="/services" className="hover:text-orange-400">Services</Link>
             <Link to="/projects" className="hover:text-orange-400">Projects</Link>
@@ -63,7 +63,7 @@ const NavBar = () => {
         <div class="bg-backgroundborder w-full h-[0.5px] max-md:relative z-50"></div>
         {isMenuOpen && (
           <div className="flex flex-col items-center space-y-4 absolute w-full h-screen justify-center text-center transition-all duration-500 ease-in-out  text-white text-sm font-medium bg-dark-black py-4 md:hidden">
-            <Link to="/home" className="hover:text-orange-400" onClick={handleCloseMenu}>Home</Link>
+            <Link to="/" className="hover:text-orange-400" onClick={handleCloseMenu}>Home</Link>
             <Link to="/about" className="hover:text-orange-400" onClick={handleCloseMenu}>About Me</Link>
             <Link to="/services" className="hover:text-orange-400" onClick={handleCloseMenu}>Services</Link>
             <Link to="/projects" className="hover:text-orange-400" onClick={handleCloseMenu}>Projects</Link>
