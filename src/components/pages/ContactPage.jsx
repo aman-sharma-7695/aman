@@ -9,6 +9,7 @@ const ContactPage = () => {
             <Contact />
             <Hero />
             <Education />
+            
 
         </div>
     )

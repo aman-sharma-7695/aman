@@ -35,14 +35,16 @@ const Hero = () => {
             <button className='bg-fed-orange hover:bg-orange-700 duration-700 text-white text-sm md:text-lg font-normal px-3 py-2 md:px-6 lg:px-12 xl:px-12   md:py-3 lg:py-17 rounded-custom-xl' data-aos="fade-up-left">Hire Me</button>
             <button onClick={handleDownload} className='bg-fed-orange hover:bg-orange-700 transition duration-700 text-white text-sm md:text-lg font-normal px-3 py-2 md:px-6 lg:px-12 xl:px-12 md:py-4 lg:py-17 rounded-custom-xl' data-aos="fade-up-left">Download CV</button>
           </div>
-       </div>
-        <div className="flex flex-col justify-center items-center  ">
-          <img src={Heroimg} alt="Hero" className=" py-5 md:py-0 w-full max-w-[350px]" data-aos="zoom-in-up" />
+        </div>
+        <div className="flex flex-col justify-center items-center  " data-aos="zoom-in-up">
+          <div className='shadow-circle'>         
+             <img src={Heroimg} alt="Hero" className=" py-5 md:py-0 w-full max-w-[350px] "  />
+          </div>
           <div className='flex justify-center items-center  md:pt-9 gap-4 md:gap-5 ' data-aos="flip-up">
-          <div className='w-10 h-10 rounded-full  cursor-pointer bg-stone-600 hover:bg-blue-600 duration-500  flex justify-center items-center'>
+            <div className='w-10 h-10 rounded-full  cursor-pointer bg-stone-600 hover:bg-blue-600 duration-500  flex justify-center items-center'>
               <a href="https://www.facebook.com/profile.php?id=100015111160029&mibextid=ZbWKwL">
                 <FacebookIcon />
-              </a>  
+              </a>
             </div>
 
             <div className='w-10 h-10 rounded-full  cursor-pointer bg-stone-600 hover:bg-black duration-500 flex justify-center items-center'>
